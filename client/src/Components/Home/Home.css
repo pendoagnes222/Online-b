@@ -1,0 +1,17 @@
+*{
+    background-color: bisque;
+}
+
+@media(max-width: 800px) {
+    *{
+        background-color: aquamarine;
+        max-width: 600px
+    }
+}
+
+@media (max-width: 500px){
+    *{
+        background-color: orangered;
+        max-width: 300px
+    }
+}

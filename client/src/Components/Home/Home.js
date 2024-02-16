@@ -1,11 +1,12 @@
 import React from 'react'
+import "../Home/Home.css"
+import Navbar from"../Navbar"
 
-
-function Home() {
+const Home = () => {
   return (
-    <div className='hero-container'>
-      <img src=''></img>
-      <p>Adventure waits you</p>
+    <div>
+      home
+      <Navbar/>
     </div>
   )
 }
